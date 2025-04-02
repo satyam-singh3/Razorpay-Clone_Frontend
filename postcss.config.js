@@ -4,3 +4,5 @@ module.exports = {
     autoprefixer: {},
   },
 }
+npx tailwindcss -i ./src/input.css -o ./dist/styles.css --minify
+
